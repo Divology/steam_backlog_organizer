@@ -17,7 +17,7 @@ class Steam:
         self.driver = driver
 
         # Replace with your own profile link
-        user_url = "https://steamcommunity.com/id/FractalNoise/games/?tab=all"
+        user_url = "https://steamcommunity.com/id/_divology_/games/?tab=all"
         self.driver.get(user_url)
         print("Acquiring url data...")
 
@@ -159,7 +159,7 @@ def main():
 
     # Replace the executable path with the path to your webdriver download
     driver = webdriver.Firefox(
-        options=options, executable_path=r"G:\Downloads v2\geckodriver.exe"
+        options=options, executable_path=r"C:\Users\likec\Desktop\geckodriver.exe"
     )
 
     # Make a new profile object
